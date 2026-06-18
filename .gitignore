@@ -1,0 +1,55 @@
+# Python Virtual Environments
+.venv/
+**/venv/
+**/.venv/
+env/
+**/env/
+ENV/
+**/ENV/
+
+# Python Caches & Bytecode
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+**/.pytest_cache/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Node.js / Frontend dependencies & build outputs
+**/node_modules/
+frontend/dist/
+**/dist/
+**/dist-ssr/
+**/coverage/
+.eslintcache
+
+# Logs
+*.log
+**/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / Secret Configurations
+*.env
+.env
+.env.*
+**/*.env
+**/*.env.*
+!.env.example
+!**/.env.example
+
+# IDEs & System files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
