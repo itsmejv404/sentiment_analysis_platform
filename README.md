@@ -1,12 +1,12 @@
-# BrandPulse 📈
+# BrandPulse
 
-### Enterprise Multi-Tenant Social Media Sentiment & Alert Pipeline
+### Multi-Tenant Social Media Sentiment & Alert Pipeline
 
 BrandPulse is a state-of-the-art enterprise-grade SaaS platform designed to ingest, clean, analyze, and alert organizations on social media sentiment trends in real-time. Built with a robust multi-tenant design, BrandPulse allows organizations to track their brand keyword mentions across platforms (like Reddit), run real-time natural language processing (NLP) pipelines, generate AI-powered insights, and trigger automated alerts when sentiment goes sour.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -54,7 +54,7 @@ graph TD
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 1. **Multi-Tenant SaaS Foundation**
    - Direct organization isolation: users are mapped to tenants with custom roles (`admin`, `manager`, `analyst`).
@@ -83,7 +83,7 @@ graph TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 brandpulse/
@@ -114,7 +114,7 @@ brandpulse/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 Make sure you have the following installed on your machine:
@@ -191,7 +191,7 @@ npm install
 
 ---
 
-### 🚀 Running the Project
+### Running the Project
 
 For ease of development, a PowerShell script is provided to spin up all **8 microservices** concurrently in separate terminal windows:
 
@@ -217,7 +217,7 @@ Access points:
 
 ---
 
-## 🛠️ Testing & Development
+## Testing & Development
 
 ### Injecting Custom Test Data
 To test the pipeline without waiting for live Reddit API data, run the interactive Custom Producer:
